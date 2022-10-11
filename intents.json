@@ -19,5 +19,20 @@
         "tag": "hours",
         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
         "responses": ["We're open every week day 8am-5pm", "Our hours are 8am-5pm for week days"]
+    },
+    {
+        "tag": "respondus",
+        "patterns": ["What is lockdown-browser?", "Why lockdown browser?", "What is respondus?"],
+        "responses": ["LockDown Browser® is a custom browser that locks down the testing environment within a learning management system.", "LockDown Browser is the “gold standard” for securing online exams in classrooms or proctored environments."]
+    },
+    {
+        "tag": "moodlelogin",
+        "patterns": ["I cannot login to moodle", "my moodle is not working"],
+        "responses": ["Please reset your password and check your school email"]
+    },
+    {
+        "tag": "zoom",
+        
+
     }
 ]}
