@@ -32,7 +32,51 @@
     },
     {
         "tag": "zoom",
+        "patterns":["I am not able to join a meeting"],
+        "response":["Use the email address that you registered with the zoom invitation to join the meeting"]
+    
+    },
+    {
+        "tag":"student portal",
+        "patterns":["I cannot login to the student portal","I cannot access my student portal"],
+        "response":["reset your password"]
         
-
+    },
+    {
+        "tag":"email",
+        "patterns":["Email problem, cant login"],
+        "response":["credentials registration number ,share phone number"]
+    },
+    {
+        "tag":"contact Kabuo",
+        "patterns":["How can I log into moodle, where do I access the moodle link to the platform,what do I use to log in"],
+        "response":["call Joshua(0724324503),call Nichodemus(0708435257),email studentsupport@kabarak.ac.ke"]
+    },
+    {
+        "tag":"installing lockdown browser",
+        "patterns":["How do I install lock down browser? ,How do I get a link to install lockdown browser?"],
+        "response":["use tthe following link:https://download.respondus.com/lockdown/download.php?id=752"]
+    },
+    {
+        "tag":"launching lockdown browser",
+        "patterns":["How do I launch lockdown browser ?,Do I launch lock down browser in an new browser?"],
+        "response":["Log into your moodle account using another browser and launch the lockdown browserLaunch in another browser,launch in another browser"]
+    },
+    {
+        "tag":"challenges when connecting to lockdown browser exams",
+        "patterns":["Error sending exam start notification, unable to continue with exam,Error in lock down exam ,Error in exams"],
+        "response":["Check your internet connection,get an alternative connection,Buy bundles ,Restart your router ,Check with your service provider "]
+    },
+    {
+        "tag":"connection server blocked",
+        "patterns":["Update server is not supplying information, or the connection to update server is blocked,I have a server blocked problem ,Server blocked ,My lockdown browser is hanging"],
+        "response":["Check your antivirus software,Disable the setting blocking the Lockdown server,Disable windows defender,Uninstall antivirus "]
+    },
+    {
+        "tag":"video connection timed out",
+        "patterns":["My video is hanging ,Connection has timed out ,I cannot navigate though lockdown browser page ,my lockdown browser page is stuck "],
+        "response":["Restart your lock down browser ,Refresh the lockdown browser page ,Check your internet connection ,Change your internet connection ,Restart your computer "]
     }
+
+
 ]}
